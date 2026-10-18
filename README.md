@@ -1,16 +1,11 @@
 <h1 align="center">RAY TRACER</h1>
 
-A C++ ray tracer that renders a 3D scene of spheres with different materials, including diffuse surfaces, metals, and glass-like dielectrics.
+A **ray tracer** is a computer graphics rendering technique that simulates the behavior of light to generate realistic images of a 3D scene. By tracing rays through a virtual camera and calculating their interactions with objects and materials, ray tracing can simulate effects such as reflections, refractions, shadows, and depth of field.
 
-<p align="center">
-  <img src="assets/example_render.png" alt="Ray tracer render" width="700">
-</p>
+This project implements a **CPU-based ray tracer in C++** that renders a 3D scene composed of spheres with different material properties. It supports diffuse surfaces that scatter light, metallic surfaces that produce reflections, and dielectric materials that simulate transparent objects such as glass through reflection and refraction. The renderer uses recursive ray tracing to simulate multiple light interactions, multisample antialiasing to reduce jagged edges, and depth-of-field effects to simulate camera focus and background blur.
 
-<p align="center">
-  <em>Rendered scene showcasing diffuse, metallic, and dielectric materials.</em>
-</p>#<center> Ray Tracer
+The scene and camera parameters can be configured to experiment with object placement, material properties, image quality, and camera behavior. The rendered output is written in PPM format, and the project uses CMake for configuration and building.
 
-A C++ ray tracer that renders a 3D scene of spheres with different materials, including diffuse surfaces, metals, and glass-like dielectrics. The project explores the fundamentals of ray tracing, light scattering, reflections, refraction, and camera simulation.
 
 <p align="center">
   <img src="assets/example_render.png" alt="Ray tracer render" width="700">
