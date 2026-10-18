@@ -1,4 +1,14 @@
-#<center> Ray Tracer
+<h1 align="center">RAY TRACER</h1>
+
+A C++ ray tracer that renders a 3D scene of spheres with different materials, including diffuse surfaces, metals, and glass-like dielectrics.
+
+<p align="center">
+  <img src="assets/example_render.png" alt="Ray tracer render" width="700">
+</p>
+
+<p align="center">
+  <em>Rendered scene showcasing diffuse, metallic, and dielectric materials.</em>
+</p>#<center> Ray Tracer
 
 A C++ ray tracer that renders a 3D scene of spheres with different materials, including diffuse surfaces, metals, and glass-like dielectrics. The project explores the fundamentals of ray tracing, light scattering, reflections, refraction, and camera simulation.
 
