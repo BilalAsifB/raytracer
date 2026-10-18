@@ -1,3 +1,0 @@
-/home/baburney/raytracer/build/CMakeFiles/main.dir
-/home/baburney/raytracer/build/CMakeFiles/edit_cache.dir
-/home/baburney/raytracer/build/CMakeFiles/rebuild_cache.dir
